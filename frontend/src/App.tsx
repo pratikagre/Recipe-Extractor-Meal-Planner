@@ -1,4 +1,4 @@
-import React, { useState, useEffect, FormEvent } from 'react';
+import { useState, useEffect, FormEvent } from 'react';
 import { extractRecipe, getRecipes, getMealPlan, Recipe } from './api';
 import { RecipeCard } from './components/RecipeCard';
 import { Modal } from './components/Modal';
