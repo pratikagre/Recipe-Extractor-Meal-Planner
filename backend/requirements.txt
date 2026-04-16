@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+sqlalchemy
+psycopg2-binary
+pydantic
+beautifulsoup4
+requests
+python-dotenv
+langchain
+langchain-google-genai
+langchain-core
