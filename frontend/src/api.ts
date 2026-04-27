@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 // @ts-ignore
-const API_BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:8000';
+const API_BASE_URL = 'https://recipe-extractor-meal-planner-orxu.onrender.com';
 
 const api = axios.create({
   baseURL: `${API_BASE_URL}/api`,
